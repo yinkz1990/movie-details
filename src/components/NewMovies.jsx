@@ -46,7 +46,7 @@ class NewMovie extends FormValidation {
     const { data, errors, genres } = this.state;
     return (
       <div>
-        <h1>Login</h1>
+        <h3>Create new movie</h3>
         <form onSubmit={this.handleSubmit}>
           <InputField
             value={data.title}
